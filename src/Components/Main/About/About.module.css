@@ -1,0 +1,31 @@
+.title{
+    text-align: right;
+    color: crimson;
+    font-size: 72px;
+    margin: 70px 0 70px 0;
+    text-shadow: 0 0 50px crimson;
+}
+
+.content{
+    background-color: #000;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_img{
+    width: 50%;
+}
+
+.about_block{
+    width: 600px;
+    margin-right: 70px;
+}
+
+.text{
+    color: white;
+    text-align: right;
+    font-size: 24px;
+}

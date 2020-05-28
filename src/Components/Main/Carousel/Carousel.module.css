@@ -1,0 +1,20 @@
+.carousel_img{
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.title{
+    margin: 0;
+    padding: 0;
+    color: crimson;
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.wrapper{
+    height: 500px;
+}
