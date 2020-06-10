@@ -1,18 +1,20 @@
 import React from 'react';
-import './App.css';
-import Navbar from "./Components/Navbar/Navbar";
+import Header from "./Components/Header/Header";
 import Content from "./Components/Content/Content";
 import Footer from "./Components/Footer/Footer";
-import {BrowserRouter} from "react-router-dom";
+import {BrowserRouter, Redirect, Route} from "react-router-dom";
 
 function App() {
     return (
         <BrowserRouter>
-                <Navbar/>
+            <Route exact path="/">
+                <Redirect to="/main"/>
+            </Route>
+                <Header/>
                 <Content/>
                 <Footer/>
         </BrowserRouter>
     );
-};
+}
 
 export default App;

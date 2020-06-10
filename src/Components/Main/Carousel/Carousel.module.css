@@ -5,16 +5,25 @@
 }
 
 .title{
+    text-align: center;
     margin: 0;
     padding: 0;
     color: crimson;
-    font-size: 100px;
+    text-shadow: 0 0 10px black;
+    font-size: 72px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
+    z-index: 5;
 }
 
 .wrapper{
     height: 500px;
+}
+
+@media (max-width: 576px) {
+    .title{
+        font-size: 48px;
+    }
 }

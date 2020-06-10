@@ -1,0 +1,109 @@
+.item{
+    font-size: 24px;
+}
+
+.item a{
+    color: var(--bg-secondary);
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.item a:hover{
+    color: crimson;
+    text-shadow: 0 0 5px crimson;
+}
+
+.item a.active{
+    color: crimson;
+    text-shadow: 0 0 5px crimson;
+}
+
+.item + .item{
+    margin-left: 40px;
+}
+
+.dropdown_button{
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.dropdown_button:hover{
+    color: crimson;
+    text-shadow: 0 0 5px crimson;
+}
+
+.dropdown_enter{
+    position: absolute;
+    transform: translateX(150%);
+}
+
+.dropdown_enter_active{
+    transform: translateX(0);
+    transition: all var(--speed) ease;
+}
+
+.dropdown_exit{
+    position: absolute;
+}
+
+.dropdown_exit_active{
+    transform: translateX(150%);
+    transition: all var(--speed) ease;
+}
+
+.responsive_item{
+    font-size: 18px;
+    margin: 10px 0;
+    border-bottom: 1px solid crimson;
+}
+
+.responsive_item a{
+    color: var(--bg-secondary);
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.responsive_item a:hover{
+    color: crimson;
+    text-shadow: 0 0 5px crimson;
+}
+
+.responsive_item a.active{
+    color: crimson;
+    text-shadow: 0 0 5px crimson;
+}
+
+.responsive_button{
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.responsive_button:hover{
+    color: crimson;
+    text-shadow: 0 0 5px crimson;
+}
+
+.responsive_dropdown_enter{
+    position: absolute;
+    transform: translateX(150%);
+}
+
+.responsive_dropdown_enter_active{
+    transform: translateX(0);
+    transition: all var(--speed) ease;
+}
+
+.responsive_dropdown_exit{
+    position: absolute;
+}
+
+.responsive_dropdown_exit_active{
+    transform: translateX(150%);
+    transition: all var(--speed) ease;
+}

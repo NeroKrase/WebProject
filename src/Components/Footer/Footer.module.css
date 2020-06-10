@@ -34,3 +34,22 @@
 a+a{
     margin-left: 15px;
 }
+
+@media (max-width: 576px){
+    .wrapper{
+        width: 90%;
+    }
+
+    a+a{
+        margin-left: 5px;
+    }
+
+    .icon{
+        width: 14px;
+        height: 14px;
+    }
+
+    .creator{
+        font-size: 12px;
+    }
+}
